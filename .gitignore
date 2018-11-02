@@ -2,6 +2,7 @@
 .idea/
 .svn/
 gradle
+.gitattributes
 build
 *.iml
 gradlew
