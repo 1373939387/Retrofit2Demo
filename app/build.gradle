@@ -38,4 +38,9 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
 
+    //引入dagger2
+    implementation 'com.google.dagger:dagger:2.16'  //dagger公用api
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.16' //指定注解处理器
+    compileOnly 'org.glassfish:javax.annotation:10.0-b28'  //添加android缺失的部分javax注解
+
 }
